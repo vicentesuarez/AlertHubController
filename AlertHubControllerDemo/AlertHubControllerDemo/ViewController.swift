@@ -7,19 +7,15 @@
 //
 
 import UIKit
+import AlertHubController
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBAction func pressedButton(_ sender: UIButton) {
+        present(AlertHubViewController(title: "Testing", message: "Testing message", style: .primary)
+            .addAction(AlertHubAction(title: "Primary", style: .primary).setActionTap({ $ in print("index \($.1)") }))
+            .addAction(AlertHubAction(title: "Secondary", style: .secondary).setActionTap({ $ in print("index \($.1)") }))
+            , animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

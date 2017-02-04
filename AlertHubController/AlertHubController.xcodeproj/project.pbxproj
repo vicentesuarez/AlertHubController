@@ -10,6 +10,24 @@
 		BA34A46F1E2DF79500394472 /* AlertHubController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA34A4651E2DF79500394472 /* AlertHubController.framework */; };
 		BA34A4741E2DF79500394472 /* AlertHubControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34A4731E2DF79500394472 /* AlertHubControllerTests.swift */; };
 		BA34A4761E2DF79500394472 /* AlertHubController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA34A4681E2DF79500394472 /* AlertHubController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6211111E45A94800B79353 /* AlertHubAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211021E45A94800B79353 /* AlertHubAction.swift */; };
+		BA6211121E45A94800B79353 /* AlertHubActionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211031E45A94800B79353 /* AlertHubActionStyle.swift */; };
+		BA6211131E45A94800B79353 /* AlertHubActionStyleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211041E45A94800B79353 /* AlertHubActionStyleItem.swift */; };
+		BA6211141E45A94800B79353 /* AlertHubActionStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211051E45A94800B79353 /* AlertHubActionStyling.swift */; };
+		BA6211151E45A94800B79353 /* AlertHubLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211061E45A94800B79353 /* AlertHubLoadingView.swift */; };
+		BA6211161E45A94800B79353 /* AlertHubLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6211071E45A94800B79353 /* AlertHubLoadingView.xib */; };
+		BA6211171E45A94800B79353 /* AlertHubSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211081E45A94800B79353 /* AlertHubSize.swift */; };
+		BA6211181E45A94800B79353 /* AlertHubStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211091E45A94800B79353 /* AlertHubStyle.swift */; };
+		BA6211191E45A94800B79353 /* AlertHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62110A1E45A94800B79353 /* AlertHubView.swift */; };
+		BA62111A1E45A94800B79353 /* AlertHubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA62110B1E45A94800B79353 /* AlertHubView.xib */; };
+		BA62111B1E45A94800B79353 /* AlertHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62110C1E45A94800B79353 /* AlertHubViewController.swift */; };
+		BA62111C1E45A94800B79353 /* AlertHubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA62110D1E45A94800B79353 /* AlertHubViewController.xib */; };
+		BA62111D1E45A94800B79353 /* AlertHubViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62110E1E45A94800B79353 /* AlertHubViewControllerTransitioningDelegate.swift */; };
+		BA62111E1E45A94800B79353 /* AnimationDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62110F1E45A94800B79353 /* AnimationDuration.swift */; };
+		BA62111F1E45A94800B79353 /* UIColor+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211101E45A94800B79353 /* UIColor+UIImage.swift */; };
+		BA6211221E45B9E900B79353 /* AlertHubStyleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211211E45B9E900B79353 /* AlertHubStyleItem.swift */; };
+		BA6211241E45BA0400B79353 /* AlertHubLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211231E45BA0400B79353 /* AlertHubLayout.swift */; };
+		BA6211261E45BC0A00B79353 /* AlertHubStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6211251E45BC0A00B79353 /* AlertHubStyling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +47,24 @@
 		BA34A46E1E2DF79500394472 /* AlertHubControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertHubControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA34A4731E2DF79500394472 /* AlertHubControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHubControllerTests.swift; sourceTree = "<group>"; };
 		BA34A4751E2DF79500394472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6211021E45A94800B79353 /* AlertHubAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubAction.swift; sourceTree = "<group>"; };
+		BA6211031E45A94800B79353 /* AlertHubActionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubActionStyle.swift; sourceTree = "<group>"; };
+		BA6211041E45A94800B79353 /* AlertHubActionStyleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubActionStyleItem.swift; sourceTree = "<group>"; };
+		BA6211051E45A94800B79353 /* AlertHubActionStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubActionStyling.swift; sourceTree = "<group>"; };
+		BA6211061E45A94800B79353 /* AlertHubLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubLoadingView.swift; sourceTree = "<group>"; };
+		BA6211071E45A94800B79353 /* AlertHubLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertHubLoadingView.xib; sourceTree = "<group>"; };
+		BA6211081E45A94800B79353 /* AlertHubSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubSize.swift; sourceTree = "<group>"; };
+		BA6211091E45A94800B79353 /* AlertHubStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubStyle.swift; sourceTree = "<group>"; };
+		BA62110A1E45A94800B79353 /* AlertHubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubView.swift; sourceTree = "<group>"; };
+		BA62110B1E45A94800B79353 /* AlertHubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertHubView.xib; sourceTree = "<group>"; };
+		BA62110C1E45A94800B79353 /* AlertHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubViewController.swift; sourceTree = "<group>"; };
+		BA62110D1E45A94800B79353 /* AlertHubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertHubViewController.xib; sourceTree = "<group>"; };
+		BA62110E1E45A94800B79353 /* AlertHubViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubViewControllerTransitioningDelegate.swift; sourceTree = "<group>"; };
+		BA62110F1E45A94800B79353 /* AnimationDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDuration.swift; sourceTree = "<group>"; };
+		BA6211101E45A94800B79353 /* UIColor+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+UIImage.swift"; sourceTree = "<group>"; };
+		BA6211211E45B9E900B79353 /* AlertHubStyleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubStyleItem.swift; sourceTree = "<group>"; };
+		BA6211231E45BA0400B79353 /* AlertHubLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubLayout.swift; sourceTree = "<group>"; };
+		BA6211251E45BC0A00B79353 /* AlertHubStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHubStyling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +107,18 @@
 		BA34A4671E2DF79500394472 /* AlertHubController */ = {
 			isa = PBXGroup;
 			children = (
+				BA62110C1E45A94800B79353 /* AlertHubViewController.swift */,
+				BA62110D1E45A94800B79353 /* AlertHubViewController.xib */,
+				BA6211061E45A94800B79353 /* AlertHubLoadingView.swift */,
+				BA6211071E45A94800B79353 /* AlertHubLoadingView.xib */,
+				BA62110A1E45A94800B79353 /* AlertHubView.swift */,
+				BA62110B1E45A94800B79353 /* AlertHubView.xib */,
+				BA6211021E45A94800B79353 /* AlertHubAction.swift */,
+				BA6211201E45A9A000B79353 /* Style */,
+				BA6211081E45A94800B79353 /* AlertHubSize.swift */,
+				BA62110E1E45A94800B79353 /* AlertHubViewControllerTransitioningDelegate.swift */,
+				BA62110F1E45A94800B79353 /* AnimationDuration.swift */,
+				BA6211101E45A94800B79353 /* UIColor+UIImage.swift */,
 				BA34A4681E2DF79500394472 /* AlertHubController.h */,
 				BA34A4691E2DF79500394472 /* Info.plist */,
 			);
@@ -84,6 +132,20 @@
 				BA34A4751E2DF79500394472 /* Info.plist */,
 			);
 			path = AlertHubControllerTests;
+			sourceTree = "<group>";
+		};
+		BA6211201E45A9A000B79353 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				BA6211031E45A94800B79353 /* AlertHubActionStyle.swift */,
+				BA6211041E45A94800B79353 /* AlertHubActionStyleItem.swift */,
+				BA6211051E45A94800B79353 /* AlertHubActionStyling.swift */,
+				BA6211091E45A94800B79353 /* AlertHubStyle.swift */,
+				BA6211211E45B9E900B79353 /* AlertHubStyleItem.swift */,
+				BA6211231E45BA0400B79353 /* AlertHubLayout.swift */,
+				BA6211251E45BC0A00B79353 /* AlertHubStyling.swift */,
+			);
+			name = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +211,7 @@
 					BA34A4641E2DF79500394472 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = K6439SN8NA;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					BA34A46D1E2DF79500394472 = {
@@ -181,6 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6211161E45A94800B79353 /* AlertHubLoadingView.xib in Resources */,
+				BA62111C1E45A94800B79353 /* AlertHubViewController.xib in Resources */,
+				BA62111A1E45A94800B79353 /* AlertHubView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +264,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6211131E45A94800B79353 /* AlertHubActionStyleItem.swift in Sources */,
+				BA6211151E45A94800B79353 /* AlertHubLoadingView.swift in Sources */,
+				BA6211141E45A94800B79353 /* AlertHubActionStyling.swift in Sources */,
+				BA62111E1E45A94800B79353 /* AnimationDuration.swift in Sources */,
+				BA6211121E45A94800B79353 /* AlertHubActionStyle.swift in Sources */,
+				BA62111F1E45A94800B79353 /* UIColor+UIImage.swift in Sources */,
+				BA6211221E45B9E900B79353 /* AlertHubStyleItem.swift in Sources */,
+				BA6211111E45A94800B79353 /* AlertHubAction.swift in Sources */,
+				BA6211241E45BA0400B79353 /* AlertHubLayout.swift in Sources */,
+				BA6211181E45A94800B79353 /* AlertHubStyle.swift in Sources */,
+				BA6211171E45A94800B79353 /* AlertHubSize.swift in Sources */,
+				BA6211191E45A94800B79353 /* AlertHubView.swift in Sources */,
+				BA62111D1E45A94800B79353 /* AlertHubViewControllerTransitioningDelegate.swift in Sources */,
+				BA62111B1E45A94800B79353 /* AlertHubViewController.swift in Sources */,
+				BA6211261E45BC0A00B79353 /* AlertHubStyling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +403,7 @@
 		BA34A47A1E2DF79500394472 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K6439SN8NA;
@@ -334,6 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.VicenteSuarez.AlertHubController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +424,7 @@
 		BA34A47B1E2DF79500394472 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K6439SN8NA;
@@ -360,6 +444,7 @@
 		BA34A47D1E2DF79500394472 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K6439SN8NA;
 				INFOPLIST_FILE = AlertHubControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +457,7 @@
 		BA34A47E1E2DF79500394472 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K6439SN8NA;
 				INFOPLIST_FILE = AlertHubControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +486,7 @@
 				BA34A47B1E2DF79500394472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA34A47C1E2DF79500394472 /* Build configuration list for PBXNativeTarget "AlertHubControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +495,7 @@
 				BA34A47E1E2DF79500394472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
