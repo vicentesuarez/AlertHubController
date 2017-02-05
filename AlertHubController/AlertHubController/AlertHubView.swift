@@ -66,61 +66,31 @@ class AlertHubView: UIView {
     
     func addAction(_ action: AlertHubAction) {
         let button = UIButton(type: .custom)
+        let style = action.style
         button.setTitle(action.title, for: UIControlState())
         button.layer.masksToBounds = true
-        
-        if let titleColor = action.titleColor {
-            button.setTitleColor(titleColor, for: UIControlState())
-        }
-        if let backgroundColor = action.backgroundColor {
-            button.setBackgroundImage(backgroundColor.image, for: UIControlState())
-        }
-        if let borderColor = action.borderColor {
-            button.layer.borderColor = borderColor.cgColor
-        }
-        if let borderWidth = action.borderWidth {
-            button.layer.borderWidth = borderWidth
-        }
-        if let cornerRadius = action.cornerRadius {
-            button.layer.cornerRadius = cornerRadius
-        }
-        if let contentInsets = action.contentInsets {
-            button.contentEdgeInsets = contentInsets
-        }
+        button.setTitleColor(style.titleColor, for: UIControlState())
+        button.setBackgroundImage(style.backgroundColor.image, for: UIControlState())
+        button.layer.borderColor = style.borderColor.cgColor
+        button.layer.borderWidth = style.borderWidth
+        button.layer.cornerRadius = style.cornerRadius
+        button.contentEdgeInsets = style.contentInsets
         self.buttonStackView.addArrangedSubview(button)
         self.actions.append(action)
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
     }
     
-    func setStyles(_ styles: [AlertHubStyleItem]) {
-        for style in styles {
-            switch style {
-            case .titleColor(let color):
-                self.titleLabel.textColor = color
-            case .messageColor(let color):
-                self.messageLabel.textColor = color
-            case .backgroundColor(let color):
-                self.contentView.backgroundColor = color
-            case .borderColor(let color):
-                self.contentView.layer.borderColor = color.cgColor
-            case .borderWidth(let width):
-                self.contentView.layer.borderWidth = width
-            case .cornerRadius(let radius):
-                self.contentView.layer.cornerRadius = radius
-            case .layout(let layout):
-                self.layout = layout
-            case .shadowColor(let color):
-                print("shadowColor \(color)")
-                self.contentView.layer.shadowColor = color.cgColor
-            case .shadowOpacity(let opacity):
-                self.contentView.layer.shadowOpacity = Float(opacity)
-            case .shadowOffset(let offset):
-                print("shadowOffset \(offset)")
-                self.contentView.layer.shadowOffset = offset
-            default:
-                break
-            }
-        }
+    func setStyle(_ style: AlertHubStyleItem) {
+        self.titleLabel.textColor = style.titleColor
+        self.messageLabel.textColor = style.messageColor
+        self.contentView.backgroundColor = style.backgroundColor
+        self.contentView.layer.borderColor = style.borderColor.cgColor
+        self.contentView.layer.borderWidth = style.borderWidth
+        self.contentView.layer.cornerRadius = style.cornerRadius
+        self.layout = style.layout
+        self.contentView.layer.shadowColor = style.shadowColor.cgColor
+        self.contentView.layer.shadowOpacity = Float(style.shadowOpacity)
+        self.contentView.layer.shadowOffset = style.shadowOffset
     }
     
     func adjustToSize(_ size: CGSize) {

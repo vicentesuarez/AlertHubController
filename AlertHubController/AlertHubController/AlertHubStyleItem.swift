@@ -9,27 +9,27 @@
 import UIKit
 
 /// An alert style configuration
-public enum AlertHubStyleItem {
+public struct AlertHubStyleItem {
     /// The text color of the alert title
-    case titleColor(UIColor)
+    var titleColor = UIColor.black
     /// The text color of the alert body
-    case messageColor(UIColor)
+    var messageColor = UIColor.black
     /// The background color of the alert
-    case backgroundColor(UIColor)
+    var backgroundColor = UIColor.white
     /// The border color of the alert
-    case borderColor(UIColor)
+    var borderColor = UIColor.lightGray
     /// The border width of the alert
-    case borderWidth(CGFloat)
+    var borderWidth: CGFloat = 0.0
     /// The corner radius of the alert
-    case cornerRadius(CGFloat)
+    var cornerRadius: CGFloat = 0.0
     /// The shadow color of the alert
-    case shadowColor(UIColor)
+    var shadowColor = UIColor.clear
     /// The shadow offset of the alert
-    case shadowOffset(CGSize)
+    var shadowOffset = CGSize.zero
     /// The opacity of the alert's shadow
-    case shadowOpacity(CGFloat)
+    var shadowOpacity: CGFloat = 0.0
     /// The layout configuration of the alert
-    case layout(AlertHubLayout)
+    var layout = AlertHubLayout.compact
     /// Sets whether the alert will present in a loading state
-    case loading(Bool)
+    var loading = true
 }

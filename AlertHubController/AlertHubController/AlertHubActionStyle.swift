@@ -18,25 +18,26 @@ public enum AlertHubActionStyle: AlertHubActionStyling {
     case custom
     
     /// Describes the appearance of an alert action
-    public var description: [AlertHubActionStyleItem] {
+    public var description: AlertHubActionStyleItem {
         let defaultContentInsets = UIEdgeInsets(top: 8.0, left: 8.0, bottom: 8.0, right: 8.0)
         switch self {
         case .primary:
             let backgroundColor = UIColor(red: 2/255, green: 117/255, blue: 216/255, alpha: 1.0)
-            return [.titleColor(UIColor.white),
-                    .backgroundColor(backgroundColor),
-                    .borderWidth(0.0),
-                    .cornerRadius(5.0),
-                    .contentInsets(defaultContentInsets)]
+            return AlertHubActionStyleItem(titleColor: UIColor.white,
+                                           backgroundColor: backgroundColor,
+                                           borderColor: UIColor.clear,
+                                           borderWidth: 0.0,
+                                           cornerRadius: 5.0,
+                                           contentInsets: defaultContentInsets)
         case .secondary:
-            return [.titleColor(UIColor(red: 41/255, green: 43/255, blue: 44/255, alpha: 1.0)),
-                    .backgroundColor(UIColor.white),
-                    .borderColor(UIColor(red: 204/255, green: 204/255, blue: 204/255, alpha: 1.0)),
-                    .borderWidth(1.0),
-                    .cornerRadius(5.0),
-                    .contentInsets(defaultContentInsets)]
+            return AlertHubActionStyleItem(titleColor: UIColor(red: 41/255, green: 43/255, blue: 44/255, alpha: 1.0),
+                                           backgroundColor: UIColor.white,
+                                           borderColor: UIColor(red: 204/255, green: 204/255, blue: 204/255, alpha: 1.0),
+                                           borderWidth: 1.0,
+                                           cornerRadius: 5.0,
+                                           contentInsets: defaultContentInsets)
         case .custom:
-            return []
+            return AlertHubActionStyleItem()
         }
     }
 }

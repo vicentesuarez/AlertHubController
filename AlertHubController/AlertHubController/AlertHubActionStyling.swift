@@ -11,5 +11,5 @@ import UIKit
 /// Adopted by an object/structure/enum that defines the appearance of an alert action.
 public protocol AlertHubActionStyling {
     /// Describes the appearance of an alert action
-    var description: [AlertHubActionStyleItem] { get }
+    var description: AlertHubActionStyleItem { get }
 }

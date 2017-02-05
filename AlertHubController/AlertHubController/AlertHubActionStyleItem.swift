@@ -9,17 +9,17 @@
 import UIKit
 
 /// An alert action style configuration
-public enum AlertHubActionStyleItem {
+public struct AlertHubActionStyleItem {
     /// The text color of the button title
-    case titleColor(UIColor)
+    public var titleColor = UIColor.black
     /// The background color of the button
-    case backgroundColor(UIColor)
+    public var backgroundColor = UIColor.white
     /// The border color of the button
-    case borderColor(UIColor)
+    public var borderColor = UIColor.lightGray
     /// The border width of the button
-    case borderWidth(CGFloat)
+    public var borderWidth: CGFloat = 1.0
     /// The corner radius of the button
-    case cornerRadius(CGFloat)
+    public var cornerRadius: CGFloat = 0.0
     /// The content insets of the button
-    case contentInsets(UIEdgeInsets)
+    public var contentInsets = UIEdgeInsets.zero
 }

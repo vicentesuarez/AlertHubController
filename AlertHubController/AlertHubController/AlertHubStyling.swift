@@ -11,5 +11,5 @@ import Foundation
 /// Adopted by an object/structure/enum that defines the appearance of an alert.
 public protocol AlertHubStyling {
     /// Describes the appearance of an alert
-    var description: [AlertHubStyleItem] { get }
+    var description: AlertHubStyleItem { get }
 }
