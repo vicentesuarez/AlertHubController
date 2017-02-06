@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1941CC1E46B9C5000EF77C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1941CB1E46B9C5000EF77C /* TableViewController.swift */; };
 		BA34A48C1E2DF7E200394472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34A48B1E2DF7E200394472 /* AppDelegate.swift */; };
-		BA34A48E1E2DF7E200394472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34A48D1E2DF7E200394472 /* ViewController.swift */; };
 		BA34A4911E2DF7E200394472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA34A48F1E2DF7E200394472 /* Main.storyboard */; };
 		BA34A4931E2DF7E200394472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA34A4921E2DF7E200394472 /* Assets.xcassets */; };
 		BA34A4961E2DF7E200394472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA34A4941E2DF7E200394472 /* LaunchScreen.storyboard */; };
 		BA34A4A11E2DF7E200394472 /* AlertHubControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34A4A01E2DF7E200394472 /* AlertHubControllerDemoTests.swift */; };
 		BA34A4AC1E2DF7E200394472 /* AlertHubControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34A4AB1E2DF7E200394472 /* AlertHubControllerDemoUITests.swift */; };
+		BA62112A1E45BF3300B79353 /* AlertHubController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6211291E45BF3300B79353 /* AlertHubController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA1941CB1E46B9C5000EF77C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		BA34A4881E2DF7E200394472 /* AlertHubControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertHubControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA34A48B1E2DF7E200394472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA34A48D1E2DF7E200394472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA34A4901E2DF7E200394472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA34A4921E2DF7E200394472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA34A4951E2DF7E200394472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		BA34A4A71E2DF7E200394472 /* AlertHubControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertHubControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA34A4AB1E2DF7E200394472 /* AlertHubControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHubControllerDemoUITests.swift; sourceTree = "<group>"; };
 		BA34A4AD1E2DF7E200394472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6211291E45BF3300B79353 /* AlertHubController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlertHubController.framework; path = Carthage/Build/iOS/AlertHubController.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA62112A1E45BF3300B79353 /* AlertHubController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				BA34A49F1E2DF7E200394472 /* AlertHubControllerDemoTests */,
 				BA34A4AA1E2DF7E200394472 /* AlertHubControllerDemoUITests */,
 				BA34A4891E2DF7E200394472 /* Products */,
+				BA6211281E45BF3300B79353 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				BA34A48B1E2DF7E200394472 /* AppDelegate.swift */,
-				BA34A48D1E2DF7E200394472 /* ViewController.swift */,
+				BA1941CB1E46B9C5000EF77C /* TableViewController.swift */,
 				BA34A48F1E2DF7E200394472 /* Main.storyboard */,
 				BA34A4921E2DF7E200394472 /* Assets.xcassets */,
 				BA34A4941E2DF7E200394472 /* LaunchScreen.storyboard */,
@@ -125,6 +129,14 @@
 			path = AlertHubControllerDemoUITests;
 			sourceTree = "<group>";
 		};
+		BA6211281E45BF3300B79353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA6211291E45BF3300B79353 /* AlertHubController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +147,7 @@
 				BA34A4841E2DF7E200394472 /* Sources */,
 				BA34A4851E2DF7E200394472 /* Frameworks */,
 				BA34A4861E2DF7E200394472 /* Resources */,
+				BA6211271E45BEF900B79353 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -257,13 +270,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA6211271E45BEF900B79353 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AlertHubController.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA34A4841E2DF7E200394472 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA34A48E1E2DF7E200394472 /* ViewController.swift in Sources */,
 				BA34A48C1E2DF7E200394472 /* AppDelegate.swift in Sources */,
+				BA1941CC1E46B9C5000EF77C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +446,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K6439SN8NA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AlertHubControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VicenteSuarez.AlertHubControllerDemo;
@@ -429,6 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K6439SN8NA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AlertHubControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VicenteSuarez.AlertHubControllerDemo;
@@ -514,6 +552,7 @@
 				BA34A4B21E2DF7E200394472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA34A4B31E2DF7E200394472 /* Build configuration list for PBXNativeTarget "AlertHubControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +561,7 @@
 				BA34A4B51E2DF7E200394472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA34A4B61E2DF7E200394472 /* Build configuration list for PBXNativeTarget "AlertHubControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +570,7 @@
 				BA34A4B81E2DF7E200394472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
